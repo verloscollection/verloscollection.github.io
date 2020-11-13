@@ -1,0 +1,156 @@
+/* --Entete qui contient les contacts--*/
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	background-color: #f0e68c;
+}
+
+.infor ul {
+	list-style-type: none;
+	margin: -8px -8px 0px ;
+	background-color:gray;
+	line-height: 150%; 
+	padding: 20px;
+
+}
+
+.infor li { 
+	float: left;
+	font-size: 22px;
+}
+
+.infor ul li .action a {
+	margin-right: 5px;
+}
+
+
+.infor ul li img {
+	width: 20px;
+	height: 20px;
+	margin-right: 0px;
+}
+.infor ul li a{
+	text-decoration: none;
+	color:#556b2f;
+	margin-left: 5px;
+}
+
+
+.infor li a:hover:not(.active) {
+    color: #000000;
+}
+
+
+
+
+/* --menu de la page de navigateur--*/
+ul {
+    margin: -8px -8px 0px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #000000;
+    line-height: 550%; 
+	padding: 0px;
+}
+
+.nav li { 
+	float: left;
+	font-size: 25px;
+}
+
+.nav ul li .active a{
+	color:blue;
+}
+
+ul li img {
+	width: 100px;
+	height: 80px;
+}
+.nav ul li a{
+	margin: 5px;
+	padding: 20px;
+	text-decoration: none;
+	color:#ffffff;
+
+}
+
+.nav li a:hover:not(.active) {
+    color: #ff6347;
+}
+
+
+
+
+/*--Page contenue--*/
+
+
+
+.presentation img{
+	width: 230px;
+	height: 230px;
+	padding: 5px;
+
+	
+}
+
+
+.presentation a{
+	color: #bdb76b;
+	text-decoration: none;
+	font-size: 15px;
+
+
+
+}
+
+.presentation b{
+	color: #800000 ;
+
+}
+
+.presentation strong {
+	color: #fff;
+	background: red;
+  
+}
+
+
+.presentation h3 a:hover:not(.active) {
+    color: #000;
+}
+
+
+
+
+.presentation h3 {
+	
+	width: 19%;
+	color:#000000;
+	font-weight: bold;
+	text-align:center;
+
+}
+
+.presentation {
+	padding-top:20px;
+	margin-left: 10px; 
+}
+
+
+
+
+/*--Pied du page--*/
+
+.pied1 p{
+	color:#ffffff;
+	background: gray;
+	padding: 15px;
+	text-align: center;
+}
+.pied1{
+	padding-top: 40px;
+}
